@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amazon</title>
+</head>
+<body>
+<style type="text/css">
+	body{
+		font-family: Arial,sans-serif;
+		font-size: 15px;
+	}
+	fieldset {
+		display: block;
+		float: left;
+	}
+	.clear{
+		clear: both;
+	}
+	.top{
+
+		border: 1px solid #ccc;
+	}
+	img{
+		margin-left: 46%;
+	}
+	a{
+		text-decoration: none;
+		font-size: 10px;
+		padding-left: 68px;
+	}
+	.second{
+		color: grey;
+		border-right: none;
+		border-bottom: none;
+		border-left: none;
+		text-align: center;
+		border-top: 1px solid grey;
+	}
+</style>
+<header style="background-color: black; height: 30px;width: 100%;" > </header>
+<div>
+<img src="https://files.slack.com/files-pri/T1HU6FJFK-F4RHYKX8B/amazon_logo.png">
+</div>
+<form action="welcome.php" method="post" style="margin: 0 auto;
+		width:250px;">
+<fieldset class="top">
+	<div style="margin-bottom: 10px; font-size: 19px;font-weight: normal; margin-top: 5px;"><label>Sign in</label><br></div>
+	<div style="font-weight: bold; font-size: 10px;"><label>Email (phone for mobile accounts)</label></div>
+	<input type="text" name="email" size="30" maxlength="30"/><br><br>
+	<div style="font-weight: bold; font-size: 10px;">
+	<label>Password</label><a href="password.html"> Forgot your password?</a>
+	<input type="Password" name="Password" size="30" maxlength="30"/><br></div>
+	<p><input type="button" value="Sign in" >	</p>
+
+<fieldset class= "clear second" style="margin-left: 0px; margin-right: 0px; padding: 0px; width: 100%">
+	<legend style="font-size: 10px; font-color:#ccc"> New To Amazon?</legend>
+	<input type="submit"  value="Create your Amazon account" style="background-color: #f0c14b; padding-left: 5px; border-radius: 5px; border-width: 1px; text-align: center; width: 100%;padding-top: 5px;padding-bottom: 5px; margin-left: 0px;margin-right: 0px;padding: 0px;">
+</fieldset>
+</fieldset>
+</form>
+
+</body>
+</html>
